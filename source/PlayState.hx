@@ -6,7 +6,7 @@ import flixel.FlxState;
 
 class PlayState extends FlxState
 {
-	var room:String = "room2";
+	var room:Int = 2;
 	var stage:Room;
 
 	override public function create()
@@ -19,9 +19,9 @@ class PlayState extends FlxState
 		super.update(elapsed);
 	}
 
-	private function updateroom(roomtogoto:String)
+	private function updateroom(roomtogoto:Int)
 	{
-		stage = new Room(2);
+		stage = new Room(roomtogoto);
 		add(stage);
 	}
 }
