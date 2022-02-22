@@ -22,5 +22,6 @@ class PlayState extends FlxState
 	private function updateroom(roomtogoto:String)
 	{
 		stage = new FlxSprite(0, 0, BitmapData.fromFile("images/room2_0.png"));
+		add(stage);
 	}
 }
