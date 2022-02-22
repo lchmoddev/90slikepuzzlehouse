@@ -9,7 +9,7 @@ class Room extends FlxSprite
 {
 	public function new(roomID:Int, floorID:Int = 1)
 	{
-		var graphic = FlxGraphic.fromBitmapData(BitmapData.fromFile("room" + Std.string(roomID) + "_0"));
+		var graphic = FlxGraphic.fromBitmapData(BitmapData.fromFile("assets/images/room" + Std.string(roomID) + "_0"));
 		super(0, 0, graphic);
 	}
 }

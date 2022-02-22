@@ -6,7 +6,7 @@ import flixel.FlxState;
 
 class PlayState extends FlxState
 {
-	var room:String = "Room2";
+	var room:String = "room2";
 	var stage:Room;
 
 	override public function create()
