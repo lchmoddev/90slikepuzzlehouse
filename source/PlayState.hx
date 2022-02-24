@@ -43,19 +43,19 @@ class PlayState extends FlxState
 	private function moveTick()
 	{
 		dirPressed = null;
-		if (FlxG.keys.justPressed.UP)
+		if (FlxG.keys.justPressed.UP || FlxG.keys.justPressed.W)
 		{
 			dirPressed = "U";
 		}
-		else if (FlxG.keys.justPressed.LEFT)
+		else if (FlxG.keys.justPressed.LEFT || FlxG.keys.justPressed.A)
 		{
 			dirPressed = "L";
 		}
-		else if (FlxG.keys.justPressed.DOWN)
+		else if (FlxG.keys.justPressed.DOWN || FlxG.keys.justPressed.S)
 		{
 			dirPressed = "D";
 		}
-		else if (FlxG.keys.justPressed.RIGHT)
+		else if (FlxG.keys.justPressed.RIGHT || FlxG.keys.justPressed.D)
 		{
 			dirPressed = "R";
 		}
