@@ -1,6 +1,6 @@
 package;
 
-import CoolUtilities.CoolUtilitiesstuff;
+import Room.Room;
 import Room.Roomdef;
 import flash.display.BitmapData;
 import flixel.FlxG;
