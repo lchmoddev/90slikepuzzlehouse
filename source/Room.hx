@@ -14,11 +14,11 @@ class Room extends FlxSprite
 	}
 }
 
-typedef Roomdef =
+class Roomdef
 {
-	var ID:Int;
-	var Udir:Int;
-	var Ddir:Int;
-	var Ldir:Int;
-	var Rdir:Int;
+	public var id:Int;
+	public var udir:Int;
+	public var ddir:Int;
+	public var ldir:Int;
+	public var rdir:Int;
 }
