@@ -67,6 +67,10 @@ class PlayState extends FlxState
 					updateroom(roomdefine.udir);
 				case "L":
 					updateroom(roomdefine.ldir);
+				case "D":
+					updateroom(roomdefine.ddir);
+				case "R":
+					updateroom(roomdefine.rdir);
 			}
 		}
 	}
